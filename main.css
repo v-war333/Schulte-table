@@ -1,0 +1,27 @@
+#secondPage, #timePage,#tablePage,#mainPage,#contact,#result-page{
+    display: none;
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.maintable3 {
+    background-color: aqua;
+    color: black;
+    font-size: 2em;
+}
+.maintable3:hover {
+    background-color: aquamarine;
+    border: 1vw solid rgb(22, 131, 220);
+    box-shadow: inset 0 0 6px rgb(34, 20, 20);
+}
+.maintable3:active {
+    background-color: cadetblue;
+}
+@media (min-width: 600px){
+    .maintable3:hover {
+        border: 5px solid rgb(22, 131, 220);
+    }
+}
